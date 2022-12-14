@@ -9,57 +9,23 @@
 5. Using the browser, verify that your solution is in your remote repo on Github.
 
 ## Problems 
-    
-### **Test all your solutions for the questions 1-4 with the following variable:** 
 
-```jsx
-const alumni = [
-{name:'Jarrit', job:'TPT',language:'JavaScript', age:23}, 
-{name:'Stephanie', job:'JPMorgan',language:'JavaScript', age:24}, 
-{name:'Devonte', job:'WW',language:'JavaScript', age:23}, 
-{name:'Enmanuel', job:'Asana',language:'JavaScript', age:23},
-{name:'Shemar', job:'SquareSpace',language:'JavaScript', age:23},
-{name:'Cielo', job:'NYT',language:'JavaScript', age:22},
-{name:'Carmen', job:'Marcy Lab School',language:'JavaScript', age:21},
-{name:'Itzel', job:'Marcy Lab School',language:'JavaScript', age:22},
-{name:'Ray', job:'Square Space',language:'JavaScript', age:21},
-{name:'Jan', job:'Square Space',language:'JavaScript', age:22},
-{name:'Uzma', job:'Thyme Care',language:'JavaScript', age:22}]
-```
+1. Write a function named `concatStrings` that takes an array of words and returns a sentence (single string) with all the element strings concatenated together
 
-1. Write a function named `averageAge` that takes an array of objects and returns the average of all the ages from each age property in each object rounded to the nearest whole number. 
-    
     ```jsx
-    averageAge(alumni) // 22
+    concatStrings(animals) // "cheetah dog cat dodobird bear dolphin"
     ```
 
-2. Write a function named `orderedAlumni` that takes an array of objects and sorts the objects by the age of the alumni from oldest to youngest. 
-    
+2. Write a function named `allFour` that takes an array of strings and returns true if all of the strings are a length of 4. 
+
     ```jsx
-    orderedAlumni(alumni) // returns [
-      { name: 'Devonte', job: 'WW', language: 'JavaScript', age: 23 },
-      {
-        name: 'Shemar',
-        job: 'SquareSpace',
-        language: 'JavaScript',
-        age: 23
-      },
-      { name: 'Jarrit', job: 'TPT', language: 'JavaScript', age: 22 },
-      {
-        name: 'Stephanie',
-        job: 'JPMorgan',
-        language: 'JavaScript',
-        age: 21
-      },
-      { name: 'Enmanuel', job: 'Asana', language: 'JavaScript', age: 21 },
-      { name: 'Cielo', job: 'NYT', language: 'JavaScript', age: 21 }
-    ]
+    allFour(animals) // false
     ```
 
-3. Write a function named `allUseJavaScript` that takes an array of objects and returns a boolean if for every object, the language property is 'JavaScript'.
-    
-        ```jsx
-        allUseJavaScript(alumni) // returns true
-        ```
+3. Write a function named `noVowel` that takes an array of strings and returns an array of strings where all of the vowels have been turned into an x. 
+
+    ```jsx
+    noVowel(animals) // ['chxxtxh', 'dxg', 'cxt', 'dxdxbxrd', 'bxxr','dxlphxn']
+    ```
 
 
