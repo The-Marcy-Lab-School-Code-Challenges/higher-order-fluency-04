@@ -9,6 +9,11 @@
 5. Using the browser, verify that your solution is in your remote repo on Github.
 
 ## Problems 
+Assume the following examples use the array:
+
+```javascript
+const animals = ['cheetah', 'dog', 'cat', 'dodobird', 'bear', 'dolphin'];
+```
 
 1. Write a function named `concatStrings` that takes an array of words and returns a sentence (single string) with all the element strings concatenated together
 
